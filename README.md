@@ -15,3 +15,5 @@ The current version is in Beta state, meaning still getting updates.
 # How to compile?
 g++ -o TheColorGameForHaikuOS main.cpp -lbe
 
+# Download:
+https://jonathan-linux.itch.io/the-color-game-for-haiku-os
