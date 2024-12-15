@@ -2,10 +2,9 @@
 The Color Game but for Haiku OS!
 # Screenshots:
 
-![Screenshot From 2024-12-15 17-34-16](https://github.com/user-attachments/assets/27b104ec-fc06-4ae3-9a92-278e9cc773c8)
+![Screenshot From 2024-12-15 21-28-33](https://github.com/user-attachments/assets/dcec3e96-4fb7-4de2-87eb-5211cd3a084e)
 
-
-![Screenshot From 2024-12-15 17-29-48](https://github.com/user-attachments/assets/bcbbab89-f2c2-4de1-b7c4-0b572b37fd8c)
+![Screenshot From 2024-12-15 21-36-10](https://github.com/user-attachments/assets/b03092e6-85a2-4ca9-9abe-7e879ff3b6d9)
 
 
 
