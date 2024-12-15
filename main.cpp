@@ -107,7 +107,7 @@ void RestartGame() {
 class ColorGameWindow : public BWindow {
 public:
     ColorGameWindow()
-        : BWindow(BRect(100, 100, 500, 400), "The Color Game For Haiku OS:", B_TITLED_WINDOW, B_NOT_RESIZABLE, B_QUIT_ON_WINDOW_CLOSE) {
+        : BWindow(BRect(100, 100, 500, 400), "The Color Game For Haiku OS", B_TITLED_WINDOW, B_NOT_RESIZABLE, B_QUIT_ON_WINDOW_CLOSE) {
         // Main view container
         BView* mainView = new BView(Bounds(), "MainView", B_FOLLOW_ALL, B_WILL_DRAW);
         mainView->SetViewColor(ui_color(B_PANEL_BACKGROUND_COLOR)); // Set background color.
@@ -117,6 +117,7 @@ public:
         BStringView* titleLabel = new BStringView(BRect(10, 10, 400, 50), "TitleLabel", "The Color Game For Haiku OS:");
         titleLabel->SetFont(be_bold_font);
         titleLabel->SetFontSize(20); // Bigger font size for the title.
+      
         mainView->AddChild(titleLabel);
 
         // Time label
@@ -143,7 +144,7 @@ public:
         mainView->AddChild(textEntry);
 
         // Restart button
-        restartButton = new BButton(BRect(10, 270, 100, 300), "RestartButton", "Restart", new BMessage('RSTR'));
+        restartButton = new BButton(BRect(10, 230, 100, 300), "RestartButton", "Restart", new BMessage('RSTR'));
         mainView->AddChild(restartButton);
 
         // Set up the timer runner
