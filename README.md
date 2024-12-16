@@ -9,8 +9,7 @@ The Color Game but for Haiku OS!
 
 
 # Version
-The current version is in Beta state, meaning still getting updates.
-
+This version is now stable after doing tests. 
 # How to compile?
 g++ -o TheColorGameForHaikuOS main.cpp -lbe
 
